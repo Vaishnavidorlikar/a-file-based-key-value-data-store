@@ -58,6 +58,6 @@ dcriving maximum pcrformance with respect to response timcs for acccssing the da
 
 store.
 
-Languages:
 
-Ideallywe would not restrict you from working on a language of your choice.
+
+
