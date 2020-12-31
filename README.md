@@ -48,7 +48,7 @@ The data store will also support the following non-functional requirements.
 
 given time.
 
-3,A clicnt proccss is allowed to access the data storc using multiplce threads, if it desircs to.
+3.A client proccss is allowed to access the data storc using multiplce threads, if it desircs to.
 
 The data store must thcrefore be thread-safe.
 
