@@ -8,7 +8,9 @@ laptop.The data store must be exposed as a library to clients that can instantia
 
 with the data store.
 
+
 The data store will support the following functional requirements.
+
 
 1. It can be initialized using an optional file path.If one is not provided, it will reliably
 
@@ -40,6 +42,7 @@ the key will no longer be available for Read or Delete operations.
 
 unexpectedways or breaches anylimits.
 
+
 The data store will also support the following non-functional requirements.
 
 1. The size of the fle storing data must never exceed 1GB.
@@ -48,11 +51,11 @@ The data store will also support the following non-functional requirements.
 
 given time.
 
-3.A client proccss is allowed to access the data storc using multiplce threads, if it desires to.
+3.A client process is allowed to access the data storc using multiplce threads, if it desires to.
 
-The data store must thcrefore be thread-safe.
+The data store must therefore be thread-safe.
 
-4. Thc client will bear as littlc memory costs as possiblc to usc this data store, while
+4. The client will bear as little memory costs as possible to usc this data store, while
 
  maximum performance with respect to response timcs for acccssing the data
 
