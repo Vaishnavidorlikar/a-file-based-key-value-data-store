@@ -54,7 +54,7 @@ The data store must thcrefore be thread-safe.
 
 4. Thc client will bear as littlc memory costs as possiblc to usc this data store, whilc
 
-dcriving maximum pcrformance with respect to response timcs for acccssing the data
+dcriving maximum performance with respect to response timcs for acccssing the data
 
 store.
 
