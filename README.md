@@ -38,7 +38,7 @@ the key will no longer be available for Read or Delete operations.
 
 7.Appropriate error responses must always be returned to a clicnt if it uses the data store in
 
-uncxpectedways or breaches anylimits_
+unexpectedways or breaches anylimits.
 
 The data store will also support the following non-functional requirements.
 
