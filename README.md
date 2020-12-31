@@ -24,15 +24,15 @@ is always a string -capped at 32chars.The value is always a ISON obiect - capped
 
 4. A Read operation on a key can be performed by providing the key, and receiving the
 
-value in rcsponsc,as aJSON objcct.
+value in response,as aJSON objcct.
 
 5. A Delete operation can be performed by providing the key.
 
-6.Every key supports sctting a Time-To-Live property when it is created.This propcrty is
+6.Every key supports setting a Time-To-Live property when it is created.This property is
 
 ontional. If erovided it will be evaluated as an inteeer definine the number of seconds
 
-the key must be rctained in the data store.Once the Timc-To-Live for a key has expired,
+the key must be retained in the data store.Once the Timc-To-Live for a key has expired,
 
 the key will no longer be available for Read or Delete operations.
 
@@ -48,13 +48,13 @@ The data store will also support the following non-functional requirements.
 
 given time.
 
-3.A client proccss is allowed to access the data storc using multiplce threads, if it desircs to.
+3.A client proccss is allowed to access the data storc using multiplce threads, if it desires to.
 
 The data store must thcrefore be thread-safe.
 
-4. Thc client will bear as littlc memory costs as possiblc to usc this data store, whilc
+4. Thc client will bear as littlc memory costs as possiblc to usc this data store, while
 
-dcriving maximum performance with respect to response timcs for acccssing the data
+ maximum performance with respect to response timcs for acccssing the data
 
 store.
 
